@@ -1,0 +1,18 @@
+[project]
+name = "fast-api-concepts"
+version = "0.1.0"
+description = "Fundamentals about Fast API Framework"
+authors = [
+    {name = "Gabriel Augusto Ferreira"}
+]
+license = {text = "Apache 2.0"}
+readme = "README.md"
+requires-python = ">= 3.11"
+dependencies = [
+    "pytest (>=8.3.5,<9.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
